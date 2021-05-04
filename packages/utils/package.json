@@ -1,0 +1,27 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "util functions",
+  "author": "ProCode2 <bpro249@gmail.com>",
+  "homepage": "https://github.com/EmptyCupHQ/monorepo-test#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmptyCupHQ/monorepo-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/EmptyCupHQ/monorepo-test/issues"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
