@@ -63,7 +63,9 @@ lerna add <package_name>  # uses yarn under the hood
 lerna add <package_name> --scope=<one_of_your_package>
 ```
 
-## Tell lerna one of the packages(`package A`) that you made is a dependency for another package(`package B`) inside the packages directory
+## Interdependency of the packages
+
+Tell lerna, one of the packages(`package A`) that you created is a dependency for another package(`package B`) inside the packages directory
 
 ```bash
 
