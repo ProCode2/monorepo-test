@@ -1,7 +1,25 @@
 {
-  "name": "root",
+  "name": "monorepo-test",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "description": "## Installing tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmptyCupHQ/monorepo-test.git"
+  },
+  "keywords": ["monorepo"],
+  "author": "ProCode2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmptyCupHQ/monorepo-test/issues"
+  },
+  "workspaces": ["packages/*"],
+  "homepage": "https://github.com/EmptyCupHQ/monorepo-test#readme"
 }

@@ -6,9 +6,13 @@
 yarn global add lerna
 ```
 
-initialise lerna
+Initialise lerna
 ```bash
 lerna init
 ```
 
+Generate Package.json
+```bash
+npm init
+```
 
