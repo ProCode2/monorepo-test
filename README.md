@@ -1,24 +1,24 @@
 # Working with a monorepo
 
-## Installing tools
+# Installing tools
 
 ```bash
 yarn global add lerna
 ```
 
-- Initialise lerna
+## Initialise lerna
 
 ```bash
 lerna init
 ```
 
-- Re-Generate Package.json to get the full one
+## Re-Generate Package.json to get the full one
 
 ```bash
 npm init
 ```
 
-- Add this to your `lerna.json`
+## Add this to your `lerna.json`
 
 ```json
 {
@@ -29,8 +29,9 @@ npm init
 }
 ```
 
-- Add Workspaces to yarn
-  Include this in your root `package.json`
+## Add Workspaces to yarn
+
+Include this in your root `package.json`
 
 ```json
 {
@@ -42,7 +43,7 @@ npm init
 }
 ```
 
-- add different packages in the packages directory
+## add different packages in the packages directory
 
 to create a package from scratch
 
@@ -50,19 +51,19 @@ to create a package from scratch
 lerna cretae <package_name>
 ```
 
-- Install dependencies across all packages
+## Install dependencies across all packages
 
 ```bash
 lerna add <package_name>  # uses yarn under the hood
 ```
 
-- Install dependencies for a single package
+## Install dependencies for a single package
 
 ```bash
 lerna add <package_name> --scope=<one_of_your_package>
 ```
 
-- Tell lerna one of the packages(`package A`) that you made is a dependency for another package(`package B`) inside the packages directory
+## Tell lerna one of the packages(`package A`) that you made is a dependency for another package(`package B`) inside the packages directory
 
 ```bash
 
@@ -75,7 +76,7 @@ After this you should be able to import `package A` inside `package B` like this
 const packageA = require("packageA");
 ```
 
-- Add dependencied to the root project
+## Add dependencied to the root project
 
 ```bash
 yarn add -W <package_name>
