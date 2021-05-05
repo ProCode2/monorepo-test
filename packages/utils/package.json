@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "util functions",
   "author": "ProCode2 <bpro249@gmail.com>",
-  "homepage": "https://github.com/EmptyCupHQ/monorepo-test#readme",
+  "homepage": "https://github.com/Procode2/monorepo-test#readme",
   "license": "ISC",
   "main": "lib/utils.js",
   "directories": {
@@ -15,15 +15,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmptyCupHQ/monorepo-test.git"
+    "url": "git+https://github.com/Procode2/monorepo-test.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/EmptyCupHQ/monorepo-test/issues"
+    "url": "https://github.com/Procode2/monorepo-test/issues"
   },
   "dependencies": {
     "typescript": "^4.2.4"
-  }
+  },
+  "gitHead": "9f968529407a59d05e098bbda727157af1395fc9"
 }
