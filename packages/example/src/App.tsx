@@ -4,7 +4,7 @@ import "./App.css";
 
 const printSomething = require("utils");
 function App() {
-  printSomething("works");
+  printSomething("working");
   return (
     <div className="App">
       <header className="App-header">
