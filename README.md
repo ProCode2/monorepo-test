@@ -78,7 +78,7 @@ After this you should be able to import `package A` inside `package B` like this
 const packageA = require("packageA");
 ```
 
-## Add dependencied to the root project
+## Add dependencies to the root project
 
 ```bash
 yarn add -W <package_name>
