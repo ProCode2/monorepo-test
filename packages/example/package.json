@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "@procode1/example",
   "version": "0.1.5",
   "private": true,
   "dependencies": {
