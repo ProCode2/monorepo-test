@@ -1,14 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
-const printSomething = require("utils");
+const printSomething = require("@procode2/util");
 function App() {
-  printSomething("working");
+  // printSomething("working");
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

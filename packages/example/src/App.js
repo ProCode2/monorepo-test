@@ -1,14 +1,12 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const react_1 = require("react");
-const logo_svg_1 = require("./logo.svg");
+exports.__esModule = true;
+var react_1 = require("react");
 require("./App.css");
-const printSomething = require("utils");
+var printSomething = require("@procode2/util");
 function App() {
-    printSomething("working");
+    // printSomething("working");
     return (<div className="App">
       <header className="App-header">
-        <img src={logo_svg_1.default} className="App-logo" alt="logo"/>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -18,5 +16,4 @@ function App() {
       </header>
     </div>);
 }
-exports.default = App;
-//# sourceMappingURL=App.js.map
+exports["default"] = App;
