@@ -1,9 +1,9 @@
 {
   "name": "@procode1/example",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": true,
   "dependencies": {
-    "@procode1/util": "^0.0.8",
+    "@procode1/util": "^0.0.9",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
