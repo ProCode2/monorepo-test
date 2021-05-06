@@ -1,7 +1,6 @@
 {
   "name": "@procode1/example",
   "version": "0.1.10",
-  "private": true,
   "dependencies": {
     "@procode1/util": "^0.0.10",
     "@testing-library/jest-dom": "^5.11.4",
