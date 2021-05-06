@@ -31,6 +31,8 @@ jobs:
           npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Change access of package to public
+      - run: npm config set access public
       - name: Publish package
         run: npm run deploy:lerna
         env:
