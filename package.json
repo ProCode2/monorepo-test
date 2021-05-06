@@ -5,7 +5,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "deploy:lerna": "lerna publish --yes --message 'chore: release new versions'"
+    "deploy:lerna": "lerna publish --yes --message 'chore: release new versions' --cd-version patch"
   },
   "workspaces": [
     "packages/*"
