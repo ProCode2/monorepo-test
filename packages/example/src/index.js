@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = require("react");
+const react_dom_1 = require("react-dom");
+require("./index.css");
+const App_1 = require("./App");
+const reportWebVitals_1 = require("./reportWebVitals");
+react_dom_1.default.render(<react_1.default.StrictMode>
+    <App_1.default />
+  </react_1.default.StrictMode>, document.getElementById('root'));
+reportWebVitals_1.default();
+//# sourceMappingURL=index.js.map

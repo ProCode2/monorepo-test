@@ -1,5 +1,5 @@
 {
-  "name": "@procode1/utils",
+  "name": "@procode1/util",
   "version": "0.0.8",
   "description": "util functions",
   "author": "ProCode2 <bpro249@gmail.com>",
@@ -26,5 +26,5 @@
   "dependencies": {
     "typescript": "^4.2.4"
   },
-  "gitHead": "0fdb323b615cb79d8956f82753b1d5818f950e8b"
+  "gitHead": "e725d40fff24e33652c185c2247c14975aeb9da9"
 }
