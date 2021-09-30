@@ -1,1 +1,20 @@
-{"github":[{"name":"Pradipta Ghoshal","avatarUrl":"https://avatars.githubusercontent.com/u/50803990?v=4","github":"ProCode2","twitter":"ProCode1","blogUrl":""},{"name":null,"avatarUrl":"https://avatars.githubusercontent.com/in/15368?v=4","github":"github-actions[bot]","twitter":null,"blogUrl":""}],"external":[],"sponsors":[]}
+{
+  "github": [
+    {
+      "name": "Pradipta Ghoshal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50803990?v=4",
+      "github": "ProCode2",
+      "twitter": "ProCode1",
+      "blogUrl": ""
+    },
+    {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "github": "github-actions[bot]",
+      "twitter": null,
+      "blogUrl": ""
+    }
+  ],
+  "external": [],
+  "sponsors": []
+}
