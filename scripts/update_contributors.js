@@ -21,7 +21,7 @@ const getNewContributors = async (existing) => {
     repo: 'monorepo-test'
   })
 
-  return res.data.filter(user => !existing.includes(user.login)).map(async user => {
+  return res.data.map(async user => {
     let d = await octokit.request("GET /users/{username}", { username: user.login })
     const newUser = {
       name: d.data.name,
